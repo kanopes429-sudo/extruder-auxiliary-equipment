@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# 실행 결과 중 큰 파일
+logs/*.mp4
+logs/*.gif
+
+# OS
+.DS_Store
+Thumbs.db

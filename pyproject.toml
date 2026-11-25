@@ -1,0 +1,14 @@
+[project]
+name = "extruder-auxiliary-equipment"
+version = "0.1.0"
+description = "압출 금형 판 교체를 돕는 협동 로봇팔 MuJoCo 시뮬레이션"
+requires-python = ">=3.10"
+dependencies = [
+    "mujoco>=3.2",
+    "numpy",
+]
+
+[dependency-groups]
+dev = [
+    "pytest",
+]
